@@ -3,9 +3,9 @@
 	//error_reporting(0);
 
 	$srvr = "localhost";
-	$user = "id7068572_admin";
+	$user = "admin";
 	$dbPassword = "Porzeczka";
-	$db = "id7068572_angrychat";
+	$db = "angrychat";
 	$_SESSION['mode'] = "none";
 
 	if(($_SERVER['REQUEST_METHOD'] == "POST")&&(isset($_POST['submit'])))
